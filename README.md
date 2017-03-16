@@ -8,10 +8,10 @@ This project uses a PostgreSQL database to track players and matches in a swiss 
 
 ## Contents
 
-1.	Installation
-2.	Running The Program
+- [Installation](#installation)
+- [Running The Program](#running-the-program)
 
-## I. 	Installation Preparation
+## Installation Preparation
 
 This program requires a number of things installed for it to run properly.  Install the following:
 
@@ -21,32 +21,29 @@ Vagrant [https://www.vagrantup.com/][https://www.vagrantup.com/]
 
 VirtualBox [https://www.virtualbox.org/][https://www.virtualbox.org/] installed.
 
-## II.	Running The Program
+## Running The Program
 
 Once installation of the various required programs are completed per your operating system, go to the command line and navigate to the root directory of the program folder and type:
-'''
-cd /vagrant
-'''
-Press enter and then type:
-'''
-vagrant up
-'''
-'''
-vagrant ssh
-'''
-Once the processes are complete, navigate to the tournament directory:
-'''
-cd /vagrant/tournament
-'''
-Then type the following to create the database tables necessary for the program to run.
-'''
-psql tournament.py
-'''
-'''
-\i tournament.sql
-'''
-Finally, execute the following to run the test Python file:
-'''
-python tournament_test.py
-'''
 
+`cd /vagrant`
+
+Press enter and then type:
+
+`vagrant up`
+
+`vagrant ssh`
+
+Once the processes are complete, navigate to the tournament directory:
+
+`cd /vagrant/tournament`
+
+Then type the following to create the database tables necessary for the program to run.
+
+`psql tournament.py`
+
+
+`\i tournament.sql`
+
+Finally, execute the following to run the test Python file:
+
+`python tournament_test.py`
