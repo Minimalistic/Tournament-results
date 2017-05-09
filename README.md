@@ -1,4 +1,4 @@
-![Udacity Logo](/img/Udacity_200.png)
+![Swiss Tournament Cover Image](/img/swiss_tournament_cover.jpg)
 
 # Udacity Full Stack Web Developer Nanodegree
 
