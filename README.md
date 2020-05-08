@@ -1,16 +1,13 @@
-# Udacity Full Stack Web Developer Nanodegree
+# Swiss Tournament
 
 ## Description
-
 This project uses a PostgreSQL database to track players and matches in a swiss match style tournament.
 
 ## Contents
-
 - [Installation](#installation)
 - [Running The Program](#running-the-program)
 
 ## Installation Preparation
-
 This program requires a number of things installed for it to run properly.  Install the following:
 
 Python 2.7 [http://docs.python-guide.org/en/latest/starting/installation/][http://docs.python-guide.org/en/latest/starting/installation/]
