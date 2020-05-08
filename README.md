@@ -1,6 +1,6 @@
 # Udacity Full Stack Web Developer Nanodegree
 
-## Project: SwissTournamentResults
+## Description
 
 This project uses a PostgreSQL database to track players and matches in a swiss match style tournament.
 
